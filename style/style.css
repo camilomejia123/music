@@ -1,0 +1,92 @@
+html,body{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+}
+.angel{
+    width: 100%;
+    height: 800px;
+}
+.titu{
+    position: absolute;
+    top: 100px;
+    left: 37%;
+    color: aliceblue;
+    font-size: 12em;
+}
+.subtitu{
+    background: linear-gradient(to right, rgb(216, 68, 10),rgb(212, 18, 148));
+  -webkit-background-clip: text;
+  color: transparent;  
+}   
+.subtitulo{
+    position: absolute;
+    top: 2200px;
+    left: 70%;
+    color: aliceblue;
+    font-size: 3em;
+}
+.subtitulo1{
+    position: absolute;
+    top: 2245px;
+    left: 70%;
+    color: aliceblue;
+    font-size: 3em;
+}
+.parra{
+    width: 20%;
+    position: absolute;
+    top: 2360px;
+    left: 70%;
+    color: aliceblue;
+    font-size: 1em;
+}
+.caja1{
+    width: 30%;
+    justify-items:start;
+    height: 10%;
+    margin: 10% 25%;
+    font-size: 20px; 
+}
+.bo{
+    position: absolute;
+    top: 2490px;
+    left: 70%;
+    color: rgb(240, 240, 255);
+    font-size: 1em;
+    
+}
+.caja{
+    width: 30%;
+    justify-items:start;
+    height: 10%;
+    margin: 10% 50%;
+    font-size: 20px;
+}
+.imgs1{
+   position: absolute;
+   left: 60%;
+   width: 20%;
+   height: auto;
+   top: 90%;
+}
+.imgs{
+    position: absolute;
+    left: 450px;
+    width: 20%;
+    height: auto;
+    top: 1400px;
+}
+.imgs2{
+    width: 100%;
+}
+.fot{
+    width: 100%;
+    height: 70%;
+}
+button{
+    border-radius: 20%;
+    background-color: rgb(218, 30, 5);
+    color: white;     
+}
