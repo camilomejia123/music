@@ -49,12 +49,16 @@ html,body{
     margin: 10% 25%;
     font-size: 20px; 
 }
-.bo{
-    position: absolute;
-    top: 2490px;
-    left: 70%;
-    color: rgb(240, 240, 255);
-    font-size: 1em;
+button{
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(253, 76, 92);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 100px;
+    border: none;
     
 }
 .caja{
@@ -81,12 +85,83 @@ html,body{
 .imgs2{
     width: 100%;
 }
-.fot{
+.margen4{
     width: 100%;
-    height: 70%;
+    background: url("../assets/images/raptis.png") no-repeat center center/cover;
+    color: #fff;
+    padding: 200px 0;
+    background-size: cover;
+    margin: auto;
+    position: relative;
+    
 }
-button{
-    border-radius: 20%;
-    background-color: rgb(218, 30, 5);
-    color: white;     
+.margen4 h1 {
+    width: 30%;
+    padding: 10px;
+    font-size: 60px;
+    margin-bottom: -40px;
+    position: relative;
+    top: -50px;
+    left: 1000px;
+}
+.margen4 p {
+    width: 40%;
+    font-size: 25px;
+    margin-top: 60px;
+    color: #fff;
+    position: relative;
+    top: -50px;
+    left: 1000px;
+    line-height: 2.0;
+}
+.margen4 button {
+    position: absolute;
+    margin-top: 1px;
+    width: 15%;
+    padding: 30px;
+    background-color: rgb(253, 76, 92);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 100px;
+    border: none;
+    left: 52%;
+}
+footer {
+  background: rgb(253, 76, 92);
+  color: white;
+  padding: 50px 20px 20px;
+  position: relative;
+
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+  line-height: 4.0;
+}
+
+.footer-column p {
+  margin: 6px 0;
+  line-height: 2.0;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.footer-bottom span {
+  display: block;
+  margin-top: 5px;
 }
